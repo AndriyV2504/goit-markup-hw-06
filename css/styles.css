@@ -183,6 +183,128 @@ img {
     cursor: pointer;
 }
 
+/*========MOB-MENU========*/
+
+.mob-menu {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    padding: 24px 24px 40px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    overflow: auto;
+}
+
+.mob-menu-close-btn {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mob-navigation {}
+
+.mob-menu-list {
+    margin-bottom: 10px;
+    /* padding-left: 16px; */
+}
+
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mob-menu-link {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.mob-menu-link-studio {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.mob-menu-address {}
+
+.mob-menu-address-list {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.mob-menu-address-item {}
+
+.mob-menu-address-link {
+    color: #434455;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.mob-menu-link-tell {
+    color: #4D5AE5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.mob-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 48px;
+}
+
+.mob-soc-item {
+    width: 40px;
+    height: 40px;
+}
+
+.mob-soc-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
+.mob-soc-icon {
+    fill: #F4F4FD;
+}
+
+.mob-soc-link:hover,
+.mob-soc-link:focus {
+    background-color: #31D0AA;
+}
+
 @media screen and (min-width: 768px) {
     .open-menu-btn {
         display: none;

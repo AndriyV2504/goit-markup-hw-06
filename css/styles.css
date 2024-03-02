@@ -830,7 +830,7 @@ img {
     }
 
     .portfolio-item {
-        width: calc((100% - 24) / 2);
+        width: calc((100% - 24px) / 2);
     }
 }
 
